@@ -1,0 +1,33 @@
+# stellar cli and rust output
+target
+.soroban
+.stellar
+
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
+
+# logs
+*.log*
+
+# environment variables
+.env
+.env*
+
+# macOS-specific files
+.DS_Store
+
+# generated contract clients
+dapp/packages/*
+
+# if you have other workspace packages, add them here
+!dapp/packages/.gitkeep
+
+# generated contract client imports
+dapp/contracts/*
+!dapp/contracts/util.ts

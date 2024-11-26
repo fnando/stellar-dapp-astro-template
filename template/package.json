@@ -1,0 +1,23 @@
+{
+  "name": "dapp",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "astro": "^4.2.4",
+    "typescript": "^5.3.3"
+  },
+  "workspaces": [
+    "dapp/packages/*"
+  ],
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "glob": "^10.4.1"
+  }
+}
